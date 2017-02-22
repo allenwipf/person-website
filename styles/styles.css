@@ -1,0 +1,78 @@
+
+.page {
+display:flex;
+flex-direction: column;
+align-items: stretch;
+
+}
+ 
+
+
+.section {
+ /*background:#00AAF2;*/
+ font-size: 15px;
+
+}
+
+h1{
+
+	padding: 0px;
+	margin: 0px;
+}
+.main {
+
+ 	text-align: center;
+}
+
+.header{
+
+ 	background: #404040;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	color: white;
+ 	font-size: larger;
+ 	padding-left: 30px;
+    padding: 40px;
+
+}
+
+.header-text{
+
+	font-family: 'Hind', sans-serif;
+	color: #8D8D8D;
+	font-size: medium;
+}
+
+.header-bottom{
+
+ 	background: #F4F2F0;
+ 	padding: 20px;
+ }
+
+ .nav-link {
+ 	list-style-type: none;
+ 	float:right;
+ 	font-family: 'Hind', sans-serif;
+ 	color: #404040;
+ 	font-size: large;
+ 	padding-left: 15px;
+ }
+
+ .head-right-icons{
+ 	float: left;
+
+ }
+
+.fa-rss, .github, .fa-twitter {
+	color: #F4F2F0;
+}
+
+.fa-circle, .fa-github{
+	color: #CCCCCC;
+
+}
+
+.fa-lg{
+	padding-right: 20px;
+}
+
+
