@@ -27,14 +27,14 @@ a{
 	color: #AEAEAE;
 }
 
+a:hover{
+
+	color: #61B78A;
+}
+
 a.nav-link{
 
 	text-decoration: none;
-}
-
-a.nav-link:hover{
-
-	color: #61B78A;
 }
 
 .header{
@@ -89,12 +89,12 @@ a.nav-link:hover{
 	margin-right: 15px;
 }
 
-.twitter-icon:hover{
-	color: #42C0FB;
-}
-
 .github-icon{
 	margin-right: 15px;
+}
+
+.twitter-icon:hover{
+	color: #42C0FB;
 }
 
 .github-icon:hover{
@@ -104,6 +104,17 @@ a.nav-link:hover{
 
 .rss-icon:hover{
 	color: #E19126;
+}
+
+.hero_image {
+    background-image: url("../images/hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:inline-block;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .main{
@@ -126,13 +137,6 @@ a.nav-link:hover{
 	text-transform: uppercase;
 }
 
-
-.content-title:hover{
-
-	color: #61B78A;
-}
-
-
 .date{
 
 	color: #D3D3D3;
@@ -151,7 +155,7 @@ a.nav-link:hover{
 
 .articles-date{
 
-	font-family: 'Cantarell', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: .9em;
 }
 
