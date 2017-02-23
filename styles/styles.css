@@ -1,34 +1,30 @@
+.clear{
+	clear: both;
+}
+
+body{
+	font-family: 'Hind', sans-serif;
+}
+
 h1{
 	font-size: 1.7em;
 	padding: 0px;
 	margin: 0px;
+	text-transform: uppercase;
 }
 
 h2{
 
 	font-size: 1.8em;
-}
-
-li{
-
-	list-style-type: square;
-	color: black;
+	font-family: 'Hind', sans-serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 a{
 
 	color: black;
 	color: #AEAEAE;
-}
-
-hr{
-
-	height: 1px;
-    border: 0;
-    border-top: 2px solid #F4F2F0;
-    font-size: .8em;
-    margin-top: 15px;
-    margin-bottom: 30px
 }
 
 a.nav-link{
@@ -39,12 +35,6 @@ a.nav-link{
 a.nav-link:hover{
 
 	color: #61B78A;
-}
-
-.page{
-	display:flex;
-	flex-direction: column;
-	align-items: stretch;
 }
 
 .header{
@@ -58,32 +48,41 @@ a.nav-link:hover{
 
 .header-text{
 
-	font-family: 'Hind', sans-serif;
 	color: #8D8D8D;
 	font-size: 1em;
+
 }
 
 .header-bottom{
 
  	background: #F4F2F0;
  	padding: 20px;
- 	margin-bottom: 50px;
+ 	margin-bottom: 30px;
+ 	box-shadow: 0px 3px 1px lightgrey;
+
 }
 
- .nav-link{
+.head-links{
+
+	float: right;
+	position: relative;
+    top: 13px;
+}
+
+.nav-link{
  	list-style-type: none;
- 	float:right;
- 	font-family: 'Hind', sans-serif;
  	color: #404040;
  	font-size: large;
  	padding-left: 15px;
 }
 
 
- .head-right-icons{
+.head-left-icons{
  	float: left;
  	font-size: 2.2em;
  	color: #D3D3D3;
+ 	position: relative;
+    top: 2px;
 }
 
 .twitter-icon{
@@ -109,9 +108,6 @@ a.nav-link:hover{
 
 .main{
 
-	display:flex;
-	flex-direction: column;
-	align-items: stretch;
 	padding-left: 30px;
 	padding-right: 30px;
 }
@@ -119,38 +115,38 @@ a.nav-link:hover{
 .articles-date{
 
 	font-family: 'Cantarell', sans-serif;
+
 }
 
 .body-header{
 
-	font-family: 'Hind', sans-serif;
 	font-size: .9em;
 	color: #AEAEAE;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
-.content-title{
-
-	padding: 0px;
-	margin: 0px;
-}
 
 .content-title:hover{
 
 	color: #61B78A;
 }
 
+
 .date{
 
 	color: #D3D3D3;
 	font-size: .8em;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
-
 
 .post{
 
-	font-family: 'Hind', sans-serif;
 	font-size: 1.1em;
+	border-top: solid 1px #D3D3D3;
+	padding-bottom: 10px;
+	
 }
 
 .articles-date{
@@ -159,29 +155,44 @@ a.nav-link:hover{
 	font-size: .9em;
 }
 
-.twitter-share{
+.footnotes{
 
-	display:flex;
-/*	flex-direction: row;*/
-	align-items: center;
-	background-color: #F4F2F0;
 	font-family: 'Cantarell', sans-serif;
-	font-size: .9em;
-
+	font-size: .8em;
+	color: #888887;
+	margin-bottom: 30px
 }
 
-.twitter-share-icon{
+.twitter-share{
 
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size: 1.8em;
-	color: #42C0FB;
-
-
+	background-color: #F4F2F0;
+	padding: 20px;
 }
 
 .twitter-share-text{
 
+	color: #888887;
+	font-size: .9em;
+	font-family: 'Cantarell', sans-serif;
+}
 
+.twitter-share-icon{
+	float: left;
+	padding-right: 20px;
+	font-size: 1.8em;
+	color: #42C0FB;
+
+}
+
+a.twitter-share-text{
+
+    top: 6px;
+}
+
+.twitter-share-text{
+
+	text-decoration: underline;
+	position: relative;
+    top: 6px;
 }
 
